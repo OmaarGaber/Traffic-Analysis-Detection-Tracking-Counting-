@@ -6,19 +6,19 @@ This project implements real-time vehicle detection, tracking, and counting usin
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🔍 **Object Detection** using YOLOv8 (`yolov8n.pt`) for fast and accurate detection.
-- 🎯 **Class-Specific Filtering** (Cars, Motorcycles, Buses, Trucks).
-- 🧠 **SimpleTracker** for object tracking using Intersection-over-Union (IoU) instead of a deep learning-based tracker.
-- 🔄 **Object Identity Preservation** across frames.
-- 📈 **Vehicle Counting** based on objects crossing a virtual horizontal line.
-- 🖼️ **Live Visualization** with bounding boxes, labels, and movement trails.
-- ⚡ Optimized for performance and can run on CPU or GPU.
+-  **Object Detection** using YOLOv8 (`yolov8n.pt`) for fast and accurate detection.
+-  **Class-Specific Filtering** (Cars, Motorcycles, Buses, Trucks).
+-  **SimpleTracker** for object tracking using Intersection-over-Union (IoU) instead of a deep learning-based tracker.
+-  **Object Identity Preservation** across frames.
+-  **Vehicle Counting** based on objects crossing a virtual horizontal line.
+-  **Live Visualization** with bounding boxes, labels, and movement trails.
+-  Optimized for performance and can run on CPU or GPU.
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - Smart traffic analysis
 - Traffic congestion monitoring
@@ -27,7 +27,7 @@ This project implements real-time vehicle detection, tracking, and counting usin
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component     | Description                                        |
 |---------------|----------------------------------------------------|
@@ -54,11 +54,10 @@ This project implements real-time vehicle detection, tracking, and counting usin
 - Avoids recounting the same ID using a set of `counted_ids`.
 
 ### 4. **Visualization**
-- Bounding boxes color-coded per class.
-- Object IDs and class names shown above each box.
+- Bounding boxes are color-coded per class.
+- Object IDs and class names are shown above each box.
 - Movement trails for visual understanding of motion.
 
----
 
-## 🧪 Example Output
+
 
